@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
 
     fun openGitPage(@Suppress("UNUSED_PARAMETER") view: View) {
         try {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/enricocid/Music-Player-GO")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/odhiamboatieno/Neo-Music-Player/")))
         } catch (e: ActivityNotFoundException) {
             Toast.makeText(this, getString(R.string.no_browser), Toast.LENGTH_SHORT).show()
             e.printStackTrace()
